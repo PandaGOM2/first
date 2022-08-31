@@ -7,11 +7,7 @@
     color: black;
 }
 
-h1{
-    font-size: 48px;
-    font-weight: 100;
-
-}
+/* -------------*/
 .content1{
     font-size: 20px;
     font-weight: lighter;
@@ -23,7 +19,17 @@ h1{
     background-image:url("images/1.jpg");
     background-size: 100%;
     width: 100%;
-    height: 718px
+    height: 718px;
+}
+.intro_text > h1{
+    font-size: 48px;
+    font-weight: 100;
+
+}
+.intro_text{
+    text-align: center;
+    width: 100%;
+    margin:231px auto 231px auto;
 }
 .header{
     display: flex;
@@ -66,11 +72,6 @@ h1{
 .nav > li > a{
     color:white;
 }
-.intro_text{
-    text-align: center;
-    width: 100%;
-    margin:231px auto 231px auto;
-}
 .amount{
     position: relative;
     top: -66px;
@@ -92,18 +93,38 @@ h1{
 .amount > li:not(last-child) > div{
     border-right:1px solid gray;
 }
-/* --- main_text0----*/
+/* ====1.html====*/
 
-.main_text0{
-    width: 100%;
-    height:601px;
-    background: #f1f2f3;
+.profile_intro > h1{
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+    margin: 60px auto 60px 40px;
     
-  }
-.main_text0 > h1{
-    padding-top:116px;
+    border-bottom: 2px solid black;
+}
+.profile{
+    font-size: 24px;
+    margin: -518px 0 0 40px;
+    width: 240px;
+    height: 500px;
+    border: 2px solid black;
+}
+.profile_li{
+    padding-top: 50px;
+    margin-right: 60px;
+    font-weight: bold;
+}
+.profile_content{
+    font-weight: bold;
+    width:556px;
+    height: 500px;
+    margin:-246px 0 0 242px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: left;
+    
+}
+.profile_content > img {
     text-align: center;
-  }
-.main_text0 > .contents1 {
-    text-align: center;
-  }
+}

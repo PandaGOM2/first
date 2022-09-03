@@ -125,6 +125,64 @@
     text-align: left;
     
 }
-.profile_content > img {
+/*===2.html====*/
+.activity{
+    background:linear-gradient( skyblue, lightCyan);
+    margin-top: 113px;
+    font-size: 22px;
+    border-right: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.activity_intro{
     text-align: center;
+    margin-top: 700px;  
+    background: skyblue;
+    border-bottom: 1px solid gray;
+}
+.activity > ul{
+    border: 1px solid gray;
+    width: 360px;
+}
+.activity_li{
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+}
+.activity_li:not(:last-child){
+    border-bottom: 1px solid gray;
+
+}
+.activity_content{
+    margin: 200px auto 200px auto;
+    height: auto;
+    font-size: larger;
+    padding: 20px;
+    text-align: left;
+}
+.group_name{
+    color: purple;
+    font-weight: 600;
+}
+/* -------3,html-------*/
+.more_intro{
+    text-align: center;
+    margin-top: 700px;  
+    background: lightskyblue;
+}
+.more{
+    font-size: 24px;
+    font-weight: 600;
+    background:linear-gradient(skyblue,lightskyblue );
+}
+.more_text{
+    color: white;
+    margin: 0px 450px 0 450px;
+    padding-top: 100px;
+
+}
+#highlight{
+    margin: 0px 450px 0 450px;
+    font-size: 30px;
+    
 }
